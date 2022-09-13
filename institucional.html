@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon_io (1)/android-chrome-192x192.png" type="coxinha">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/tela600.css" >
+</head>
+<body>
+    <header>
+        <h1>Lanches da Hora</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="promocao.html">Promoções</a></li>
+                <li><a href="pedido.html">Pedido</a></li>
+                <li><a href="contato.html">contato</a></li>
+                <li><a href="institucional.html">institucional</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>lanches fritos na hora para seu final de semana.</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo praesentium delectus aut! Molestias itaque architecto odit perspiciatis rem eaque! Placeat est natus distinctio esse voluptate vero veritatis nobis corporis soluta!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta rerum vero perspiciatis cumque accusantium, consequuntur vitae non harum autem aperiam dolor ratione aut labore. Optio facere totam quam blanditiis?
+            </p>
+            <div>
+                <img src="imagens/tela-inicio.jpg" alt="lanche">
+            </div>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae dolor numquam temporibus exercitationem tenetur, aperiam dicta sed esse libero expedita architecto facere necessitatibus. Consequuntur et, suscipit tenetur minus accusamus ipsa!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ad praesentium excepturi reprehenderit sed? Facilis ratione quod, non nostrum, nihil repellendus inventore provident at voluptatem qui nobis eligendi incidunt culpa.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, unde dicta quod ducimus earum eveniet sint recusandae enim nam architecto quo dolor reiciendis dolores illum temporibus nisi perferendis a. Minus.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloribus cum, accusamus, tenetur nobis laborum doloremque vel perspiciatis placeat quia nulla quae voluptatem at ab modi, temporibus necessitatibus dolorum enim.
+            </p>
+        </article>
+    </main>
+    <footer>
+        <p>Criado por <a href="https://github.com/denesson" target="_blank">Denesson Barreto</a></p>
+    </footer>
+
+    <script>
+        function telaTamanho()
+        {
+            if (window.innerWidth >= 600){
+                itens.style.display = 'block'
+            }else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu()
+        {
+            if(itens.style.display == 'block') 
+            {
+                itens.style.display = 'none'
+            }else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

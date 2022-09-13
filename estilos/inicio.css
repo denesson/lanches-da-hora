@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+div {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+div p {
+    text-align: center;
+    padding: 10px;
+}
+
+div#Primeiro {
+    width: 230px;
+    height: 200px;
+}
+
+img.Um {
+    width: 79%;
+    height: 61%;
+}
+
+div#Segundo {
+    width: 230px;
+    height: 200px;
+}
+
+img.dois {
+    width: 100%;
+    height: 100%;
+}
+
+div#Terceiro {
+    width: 230px;
+    height: 200px;
+}
+
+img.Tres {
+    width: 81%;
+    height: 63%;
+}
+
+div#Quarto {
+    width: 230px;
+    height: 200px;
+}
+
+img.Quatro {
+    width: 79%;
+    height: 61%;
+}
+
+div#Quinto {
+    width: 230px;
+    height: 200px;
+}
+
+img.Quinto {
+    width: 80%;
+    height: 61%;
+}
+
+div#Sexto {
+    width: 230px;
+    height: 200px;
+}
+
+img.Sexto {
+    width: 81%;
+    height: 62%;
+}
+

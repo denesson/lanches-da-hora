@@ -1,0 +1,432 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 895px) 
+{
+
+    div {
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    
+    div p {
+        text-align: justify;
+        padding: 16px;
+    }
+
+    div#Primeiro {
+        position: relative;
+        top: 2%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Um {
+        width: 59%;
+        height: 88%;
+    }
+
+    div#Segundo {
+        position: relative;
+        top: 4%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Dois {
+        width: 70%;
+        height: 88%;
+    }
+
+    div#Terceiro {
+        position: relative;
+        top: 6%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Tres {
+        width: 59%;
+        height: 88%;
+    }
+
+    div#Quarto {
+        position: relative;
+        top: 8%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Quatro {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Quinto {
+        position: relative;
+        top: 10%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Quinto {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Sexto {
+        position: relative;
+        top: 12%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Sexto {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Setimo {
+        position: relative;
+        top: 14%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Setimo {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Oitavo {
+        position: relative;
+        top: 16%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Oitavo{
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Nono {
+        position: relative;
+        top: 18%;
+        left: 2.6%;
+        width: 465px;
+        height: 200px;
+        margin: auto;
+    }
+
+    img.Nono{
+        width: 56%;
+        height: 88%;
+    }
+
+    main {
+        height: 380%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 895px) and (max-width: 1200px) 
+{
+    div {
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    
+    div p {
+        text-align: justify;
+        padding: 16px;
+    }
+    div#Primeiro {
+        position: relative;
+        top: 2%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Um {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Segundo {
+        position: relative;
+        top: 4%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Dois {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Terceiro {
+        position: relative;
+        top: 6%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Tres {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Quarto {
+        position: relative;
+        top: 8%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Quatro {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Quinto {
+        position: relative;
+        top: 10%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Quinto {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Sexto {
+        position: relative;
+        top: 12%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Sexto {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Setimo {
+        position: relative;
+        top: 14%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Setimo {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Oitavo {
+        position: relative;
+        top: 16%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Oitavo{
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Nono {
+        position: relative;
+        top: 18%;
+        left: 2.6%;
+        width: 514px;
+        height: 228px;
+        margin: auto;
+    }
+
+    img.Nono{
+        width: 56%;
+        height: 88%;
+    }
+
+    main {
+        height: 433%;
+        width: 90%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    div {
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    
+    div p {
+        text-align: justify;
+        padding: 16px;
+    }
+    div#Primeiro {
+        position: relative;
+        top: 2%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+    }
+
+    img.Um {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Segundo {
+        position: relative;
+        top: 4%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+    }
+
+    img.Dois {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Terceiro {
+        position: relative;
+        top: 6%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+    }
+
+    img.Tres {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Quarto {
+        position: relative;
+        top: 8%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+    }
+
+    img.Quatro {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Quinto {
+        position: relative;
+        top: 10%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+    }
+    img.Quinto {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Sexto {
+        position: relative;
+        top: 12%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+    }
+
+    img.Sexto {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Setimo {
+        position: relative;
+        top: 14%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+    }
+
+    img.Setimo {
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Oitavo {
+        position: relative;
+        top: 16%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+    }
+
+    img.Oitavo{
+        width: 56%;
+        height: 88%;
+    }
+
+    div#Nono {
+        position: relative;
+        top: 18%;
+        width: 608px;
+        height: 235px;
+        margin: auto;
+
+    }
+
+    img.Nono{
+        width: 56%;
+        height: 88%;
+    }
+
+    p.one {
+        padding-top: 59px;
+    }
+
+    main {
+        height: 410%;
+        width: 90%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+}

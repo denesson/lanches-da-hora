@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 625px) {
+    span#burger {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+
+}
+@media screen and (max-width: 600px)
+{
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    div#Primeiro {
+        position: relative;
+        top: 3%;
+        left: 29%;
+    }
+
+    div#Segundo {
+        position: relative;
+        top: 20%;
+        left: -20%;
+    }
+
+    div#Terceiro {
+        position: relative;
+        top: 23%;
+        left: 29%;
+    }
+    
+    div#Quarto {
+        position: relative;
+        top: 39%;
+        left: -20%;
+    }
+
+    div#Quinto {
+        position: relative;
+        top: 43%;
+        left: 29%;
+    }
+
+    div#Sexto {
+        position: relative;
+        top: 57%;
+        left: -20%;
+    }
+
+    main {
+        margin: auto;
+        width: 70%;
+        height: 300vh;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #EBB73F;
+    }
+}

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/*
+ cores 
+ #EBB73F
+ #F2AC49
+ #DB884D
+ #F27349
+ #EB5A4D
+*/
+
+@font-face {
+    font-family: 'marguerite';
+    src: url('../fonte/marguerite_3/marguerite.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 98.7vw;
+    height: 100vh;
+    background-color:  white;
+}
+
+header {
+    text-align: center;
+    background-color: #EBB73F;
+    border-radius: 0px 0px 10px 10px;
+}
+header h1 {
+    padding: 10px;
+    padding-top: 20px;
+    height: 100px;
+    background-color: rgba(168, 166, 166, 0);
+    font-size: 2.5em;
+    color: red;
+    font-family: 'marguerite', Arial, Helvetica, sans-serif;
+}
+menu {
+    display: none;
+}
+
+menu li a {
+    display: inline-block;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu li a {
+    display: block;
+    padding: 10px;
+    color: #EB5A4D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+menu li a:hover {
+    color: red;
+    background-color: #ee9a24;
+    padding: 10px;
+    border-radius: 10px;
+}
+span#burger {
+    background-color: #ee9a24;
+    width: 100%;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+span#burger:hover {
+    background-color: #DB884D;
+    color: #ee9a24;
+}
+
+div img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    
+}
+
+main {
+    margin: auto;
+    width: 80vw;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #EBB73F;
+    max-width: 900px;
+    min-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.425);
+    margin-bottom: 20px;
+}
+
+article h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    font-family: 'marguerite', Arial, Helvetica, sans-serif;
+}
+
+article p {
+    text-indent: 50px;
+    padding: 24px 10px 17px 10px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #EBB73F;
+    border-radius: 5px;
+}
+
+footer p {
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
