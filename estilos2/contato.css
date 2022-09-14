@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 main {
-    width: 100vw;
-    height: 90vh;
+    width: 96.6vw;
+    height: 67vh;
 }
 
 p.cont {
@@ -10,13 +10,13 @@ p.cont {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2em;
-    padding-top: 75px;
+    padding-top: 45px;
     color: red;
 }
 
 form {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 form p {
@@ -50,4 +50,59 @@ input.two {
     border-radius: 5px;
     cursor: pointer;
     margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) 
+{
+    main {
+        width: 96.6vw;
+        height: 67vh;
+    }
+    
+    p.cont {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+        padding-top: 20px;
+        color: red;
+    }
+    
+    form {
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    form p {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    input.tel {
+        width: 156px;
+    }
+    
+    input.mail{
+        width: 172px;
+    }
+    
+    input.one {
+        padding: 7px;
+        color: white;
+        background-color: #EB5A4D;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+    
+    input.two {
+        padding: 7px;
+        color: white;
+        background-color: grey;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
 }

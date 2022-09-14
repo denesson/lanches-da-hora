@@ -16,7 +16,7 @@
 {
 
     body {
-        width: 100vw;
+        width: 96.6vw;
         height: 100vh;
     }
 
@@ -27,7 +27,7 @@
     
     div p {
         text-align: justify;
-        padding: 8px;
+        padding: 10px;
     }
     div#Primeiro {
         position: relative;
@@ -143,8 +143,8 @@
     div#Nono {
         position: relative;
         top: 18%;
-        left: -1%;
-        width: 444px;
+        left: -0.3%;
+        width: 452px;
         height: 198px;
         margin: auto;
     }
@@ -157,10 +157,11 @@
     main {
         margin: auto;
         width: 70%;
-        height: 375%;
+        height: 350%;
         padding: 10px;
         margin-top: 20px;
         margin-bottom: 20px;
         background-color: #EBB73F;
     }
+
 }
