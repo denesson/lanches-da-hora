@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
 main {
     width: 96.6vw;
-    height: 67vh;
+    height: 66vh;
 }
 
 p.cont {
@@ -54,6 +58,10 @@ input.two {
 
 @media screen and (max-width: 600px) 
 {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
     main {
         width: 96.6vw;
         height: 67vh;
