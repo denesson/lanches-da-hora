@@ -28,129 +28,131 @@
     div p {
         text-align: justify;
         padding: 10px;
+        font-size: 14px;
     }
     div#Primeiro {
         position: relative;
-        left: -1%;
+        top: 2%;
+        left: 3%;
         width: 397px;
         height: 210px;
         margin: auto;
     }
 
     img.Um {
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
 
     div#Segundo {
         position: relative;
         top: 1%;
-        left: -1%;
+        left: 3%;
         width: 397px;
         height: 210px;
         margin: auto;
     }
 
     img.Dois {
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
 
     div#Terceiro {
         position: relative;
-        top: 2%;
-        left: -1%;
+        top: 0%;
+        left: 3%;
         width: 397px;
         height: 210px;
         margin: auto;
     }
 
     img.Tres {
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
     
     div#Quarto {
         position: relative;
-        top: 3%;
-        left: -1%;
+        top: 0%;
+        left: 3%;
         width: 397px;
         height: 210px;
         margin: auto;
     }
     img.Quatro {
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
 
     div#Quinto {
         position: relative;
-        top: 4%;
-        left: -1%;
+        top: -1%;
+        left: 3%;
         width: 397px;
         height: 210px;
         margin: auto;
     }
 
     img.Quinto {
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
 
     div#Sexto {
         position: relative;
-        top: 5%;
-        left: -1%;
+        top: -2%;
+        left: 3%;
         width: 397px;
         height: 210px;
         margin: auto;
     }
 
     img.Sexto {
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
 
     div#Setimo {
         position: relative;
-        top: 6%;
-        left: -1%;
+        top: -3%;
+        left: 3%;
         width: 397px;
         height: 210px;
         margin: auto;
     }
 
     img.Setimo {
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
 
     div#Oitavo {
         position: relative;
-        top: 7%;
-        left: -1%;
+        top: -4%;
+        left: 3%;
         width: 397px;
         height: 210px;
         margin: auto;
     }
 
     img.Oitavo{
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
 
     div#Nono {
         position: relative;
-        top: 8%;
-        left: -1%;
-        width: 397px;
+        top: -5%;
+        left: 3%;
+        width: 387px;
         height: 210px;
         margin: auto;
     }
 
     img.Nono{
-        width: 56%;
-        height: 88%;
+        width: 47%;
+        height: 69%;
     }
 
     main {

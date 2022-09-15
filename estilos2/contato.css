@@ -65,6 +65,10 @@ input.two {
     main {
         height: 63vh;
     }
+
+    section {
+        margin: auto;
+    }
     
     p.cont {
         text-align: center;
