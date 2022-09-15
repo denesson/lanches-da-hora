@@ -161,6 +161,8 @@
         margin-top: 20px;
         margin-bottom: 20px;
         background-color: #EBB73F;
+        max-width: 900px;
+        min-width: 300px;
     }
 
 }
