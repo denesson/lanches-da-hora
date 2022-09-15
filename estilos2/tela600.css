@@ -16,7 +16,7 @@
 {
 
     body {
-        width: 100vw;
+        width: 102vw;
         height: 112vh;
     }
 
@@ -31,10 +31,9 @@
     }
     div#Primeiro {
         position: relative;
-        top: 2%;
-        left: -1%;
-        width: 444px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
 
@@ -46,9 +45,9 @@
     div#Segundo {
         position: relative;
         top: 4%;
-        left: -1%;
-        width: 444px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
 
@@ -60,9 +59,9 @@
     div#Terceiro {
         position: relative;
         top: 6%;
-        left: -1%;
-        width: 444px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
 
@@ -74,9 +73,9 @@
     div#Quarto {
         position: relative;
         top: 8%;
-        left: -1%;
-        width: 444px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
     img.Quatro {
@@ -87,9 +86,9 @@
     div#Quinto {
         position: relative;
         top: 10%;
-        left: -1%;
-        width: 444px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
 
@@ -101,9 +100,9 @@
     div#Sexto {
         position: relative;
         top: 12%;
-        left: -1%;
-        width: 444px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
 
@@ -115,9 +114,9 @@
     div#Setimo {
         position: relative;
         top: 14%;
-        left: -1%;
-        width: 444px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
 
@@ -129,9 +128,9 @@
     div#Oitavo {
         position: relative;
         top: 16%;
-        left: -1%;
-        width: 444px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
 
@@ -143,9 +142,9 @@
     div#Nono {
         position: relative;
         top: 18%;
-        left: -0.3%;
-        width: 452px;
-        height: 198px;
+        left: 7%;
+        width: 283px;
+        height: 216px;
         margin: auto;
     }
 
@@ -156,13 +155,13 @@
 
     main {
         margin: auto;
-        height: 350%;
+        height: 375%;
         padding: 10px;
         margin-top: 20px;
         margin-bottom: 20px;
         background-color: #EBB73F;
         max-width: 900px;
-        min-width: 450px;
+        min-width: 400px;
     }
 
 }
