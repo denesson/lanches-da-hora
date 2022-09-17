@@ -5,7 +5,7 @@ body {
     height: 100vh;
 }
 main {
-    height: 66vh;
+    height: 395px;
     width: 97vw;
 }
 p.one {
@@ -13,7 +13,7 @@ p.one {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2.5em;
-    padding-top: 100px;
+    padding-top: 57px;
     padding-bottom: 50px;
     color: red;
 }
