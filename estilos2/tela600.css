@@ -16,7 +16,7 @@
 {
 
     body {
-        width: 102vw;
+        width: 97vw;
         height: 112vh;
     }
 
@@ -163,7 +163,7 @@
         margin-bottom: 20px;
         background-color: #EBB73F;
         max-width: 900px;
-        min-width: 350px;
+        min-width: 460px;
     }
 
 }
